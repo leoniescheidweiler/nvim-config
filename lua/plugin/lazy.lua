@@ -104,8 +104,16 @@ require("lazy").setup({
 		-- autopair plugin that supports multiple character
 		"windwp/nvim-autopairs",
 	},
+        {
+                -- linter
+                "mfussenegger/nvim-lint"
+        },
 	{
 		-- formatter
 		"mhartington/formatter.nvim"
 	},
+        {
+                -- debugger
+                "mfussenegger/nvim-dap"
+        },
 })
